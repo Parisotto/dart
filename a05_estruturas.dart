@@ -1,10 +1,18 @@
 /*
+  - Tuplas
   - List
   - Set
   - Map
 */
 
 void main(){
+  // Tuplas
+  var pessoa = ('Tamires', 24, 1.65, true);
+  print(pessoa);
+  print(pessoa.runtimeType);
+  print(pessoa.$1);
+  print(pessoa.$4);
+
   // List
   List studants = ['Sofia','Tamires','Tales'];
   var studants2 = [];
