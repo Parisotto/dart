@@ -5,13 +5,16 @@
   - Map
 */
 
+import 'dart:ffi';
+
 void main(){
-  // Tuplas
+  // Tupla
   var pessoa = ('Tamires', 24, 1.65, true);
   print(pessoa);
   print(pessoa.runtimeType);
   print(pessoa.$1);
   print(pessoa.$4);
+  print(pessoa.hashCode);
 
   // List
   List studants = ['Sofia','Tamires','Tales'];
@@ -28,13 +31,14 @@ void main(){
   print(studants[0]);
   print(studants.length);
   print(studants[studants.length - 1]);
-
+  
   // Map
   Map paises = {
     'BR':'Brasil',
     'AR':'Argentina',
     'US':'Estados Unidos'
   };
+  
   var paises2 = {};
   dynamic paises3 = new Map();
 
