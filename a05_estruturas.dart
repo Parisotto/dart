@@ -15,6 +15,9 @@ void main(){
   print(pessoa.$1);
   print(pessoa.$4);
   print(pessoa.hashCode);
+  (String, int, bool) dados = ('Edson', 2025, true);
+  var (nome, ano, professor) = ('Edson', 2025, true);
+  print('$nome - $ano - $professor');
 
   // List
   List studants = ['Sofia','Tamires','Tales'];
@@ -57,7 +60,7 @@ void main(){
   print(paises.entries);
 
   // Set
-  Set times = {'Palmeiras', 'Flamengos', 'Palmeiras', 'Corinthians'};
+  Set times = {'Palmeiras', 'Flamengo', 'Palmeiras', 'Corinthians'};
   Set times2 = {};
   dynamic times3 = new Set();
   
