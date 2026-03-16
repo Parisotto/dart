@@ -78,3 +78,11 @@ void main(){
   print(times.contains('Palmeiras'));
   
 }
+
+/*
+Tipo |Mutável |Ordenado|Permite duplicatas |Chave/Valor|Tipagem mista|Exemplo de uso
+List	Sim      Sim	    Sim	                Não	        Pode	        Sequência de elementos
+Set	  Sim	     Não	    Não	                Não	        Pode	        Coleção sem duplicatas
+Map	  Sim	     Não      (chaves únicas)	    Sim	        Pode	        Associação chave → valor
+Tuple	Não	     Sim	    Sim	                Não	        Pode	        Agrupar poucos valores fixos
+*/
